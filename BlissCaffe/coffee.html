@@ -1,0 +1,938 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Welcome to Bliss Cafè</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body style="background-image: url('image/orderBoard.jpg'); background-size: cover; background-position: center; background-attachment: fixed; margin: 0; padding: 0; height: 100vh;">
+		<div class="navi">
+			<div class="row">
+				<div class="col">
+					<nav class="navbar navbar-expand-lg">
+						<div class="container-fluid navbar">
+							<img src="image/logo1.jpg" style="width: 70px; height: 70px; border-radius: 50px 50px 50px 50px;" class="my-logo">
+							<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+								<span class="navbar-toggler-icon"></span>
+							</button>
+							<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+								<div class="navbar-nav">
+									<a class="nav nav-link px-4" href="index.html">Home</a>
+									<a class="nav nav-link px-4" href="coffee.html">Coffee</a>
+				            		<a class="nav nav-link px-4" href="review.html">Reviews</a>
+				            		<a class="nav nav-link px-4" href="aboutus.html">About Us</a>
+				            		<a class="nav nav-link px-4" href="policy.html">Policy</a>
+								</div>
+							</div>
+						</div>
+					</nav>
+				</div>
+			</div>
+		</div>
+		<div class="body mt-5">
+			<div class="row mt-3"></div>
+			<!-- Espresso-Based Drinks -->
+			<div class="row mt-3">
+				<div class="col-lg-3 col-sm-3"></div>
+				<div class="col-lg-6 col-sm-6 mt-5">
+					<p class="section-a">Espresso-Based Drinks</p>
+					<div class="row">
+						<div class="col-lg-6 col-sm-6 mt-3">
+							<img src="drink/espresso.jpg" class="post-card">
+						</div>
+						<div class="col-lg-6 col-sm-6 mt-3">
+							<dl>
+								<dt>Espresso</dt>
+								<dd>A strong, concentrated shot of coffee, forming the base for many other drinks. Loved by purists.</dd>
+							</dl>
+							<div class="button">
+	                            <button type="button" class="btn btn-desert" data-bs-toggle="modal" data-bs-target="#espressoMdl">
+	                            	<img src="icon/dessert1.png" class="icon-dessert">
+	                            </button>
+	                        </div>
+						</div>
+					</div>	
+					<!-- modal for dessert -->
+						<center>
+							<div class="modal fade" id="espressoMdl" tabindex="-1" aria-labelledby="espressoTbl" aria-hidden="true">
+			                    <div class="modal-dialog" role="document">
+			                        <div class="modal-content">
+			                            <div class="modal-header modal-css">
+			                                <h5 class="modal-title mdl-title" id="espressoTbl">Best Dessert for Espresso</h5>
+			                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			                            </div>
+			                            <div class="modal-body modal-css1">
+			                                <div class="row">
+			                                	<div class="col-lg-6 col-sm-6">
+			                                		<img src="dessert/tiramisu.jpg" style="width: 180px; height:180px">
+			                                	</div>
+			                                	<div class="col-lg-6 col-sm-6">
+			                                		<dl>
+			                                			<dt class="dessert-dt">Tiramisu</dt>
+			                                			<dd class="dessert-dd">The classic Italian dessert with coffee-soaked ladyfingers and mascarpone perfectly complements espresso's bold flavor.</dd>
+			                                		</dl>
+			                                	</div>
+			                                </div>
+			                                <div class="row mt-3">
+			                                	<div class="col-lg-6 col-sm-6">
+			                                		<img src="dessert/darkChoco.jpg" style="width: 180px; height:180px">
+			                                	</div>
+			                                	<div class="col-lg-6 col-sm-6">
+			                                		<dl>
+			                                			<dt class="dessert-dt">Dark Chocolate Truffles</dt>
+			                                			<dd class="dessert-dd">The bitterness of dark chocolate balances the intense espresso shot.</dd>
+			                                		</dl>
+			                                	</div>
+			                                </div>
+			                            </div>
+			                            <div class="modal-footer dessert-quote">
+			                                <p class="dessert-q">"Sweet dreams are made of sugar and cream."</p>
+			                            </div>
+			                        </div>
+			                    </div>
+			                </div>
+						</center>
+					<!-- end of modal -->
+					<div class="row">
+						<div class="col-lg-6 col-sm-6 mt-3">
+							<img src="drink/latte.jpg" class="post-card">
+						</div>
+						<div class="col-lg-6 col-sm-6 mt-3">
+							<dl>
+								<dt>Latte</dt>
+								<dd>A creamy blend of espresso and steamed milk, often topped with a light layer of foam. Customizable with flavors like vanilla, caramel, or hazelnut.</dd>
+							</dl>
+							<div class="button">
+	                            <button type="button" class="btn btn-desert" data-bs-toggle="modal" data-bs-target="#latterMdl">
+	                            	<img src="icon/dessert1.png" class="icon-dessert">
+	                            </button>
+	                        </div>
+						</div>
+					</div>
+					<!-- modal for dessert -->
+						<center>
+							<div class="modal fade" id="latterMdl" tabindex="-1" aria-labelledby="latteTbl" aria-hidden="true">
+			                    <div class="modal-dialog" role="document">
+			                        <div class="modal-content">
+			                            <div class="modal-header modal-css">
+			                                <h5 class="modal-title mdl-title" id="latteTbl">Best Dessert for Latte</h5>
+			                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			                            </div>
+			                            <div class="modal-body modal-css1">
+			                                <div class="row">
+			                                	<div class="col-lg-6 col-sm-6">
+			                                		<img src="dessert/cheeseCake.jpg" style="width: 180px; height:180px">
+			                                	</div>
+			                                	<div class="col-lg-6 col-sm-6">
+			                                		<dl>
+			                                			<dt class="dessert-dt">Cheese Cake</dt>
+			                                			<dd class="dessert-dd">The creamy texture and mild sweetness pair well with the smoothness of a latte.</dd>
+			                                		</dl>
+			                                	</div>
+			                                </div>
+			                                <div class="row mt-3">
+			                                	<div class="col-lg-6 col-sm-6">
+			                                		<img src="dessert/cinnamon.jpeg" style="width: 180px; height:180px">
+			                                	</div>
+			                                	<div class="col-lg-6 col-sm-6">
+			                                		<dl>
+			                                			<dt class="dessert-dt">Cinnamon Rolls</dt>
+			                                			<dd class="dessert-dd">The warm spice of cinnamon enhances the latte’s creamy taste.</dd>
+			                                		</dl>
+			                                	</div>
+			                                </div>
+			                            </div>
+			                            <div class="modal-footer dessert-quote">
+			                                <p class="dessert-q">"Treat yorself, you deserve it."</p>
+			                            </div>
+			                        </div>
+			                    </div>
+			                </div>
+						</center>
+					<!-- end of modal -->
+					<div class="row">
+						<div class="col-lg-6 col-sm-6 mt-3">
+							<img src="drink/cappuccino.jpg" class="post-card">
+						</div>
+						<div class="col-lg-6 col-sm-6 mt-3">
+							<dl>
+								<dt>Cappuccino</dt>
+								<dd>Equal parts espresso, steamed milk, and milk foam, known for its rich texture and balanced flavor.</dd>
+							</dl>
+							<div class="button">
+								<button type="button" class="btn btn-desert" data-bs-toggle="modal" data-bs-target="#cappuccinoMdl">
+	                            	<img src="icon/dessert1.png" class="icon-dessert">
+	                            </button>
+							</div>
+						</div>
+					</div>
+					<!-- modal for dessert -->
+						<center>
+							<div class="modal fade" id="cappuccinoMdl" tabindex="-1" aria-labelledby="cappuccinoTbl" aria-hidden="true">
+			                    <div class="modal-dialog" role="document">
+			                        <div class="modal-content">
+			                            <div class="modal-header modal-css">
+			                                <h5 class="modal-title mdl-title" id="cappuccinoTbl">Best Dessert for Cappuccino</h5>
+			                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			                            </div>
+			                            <div class="modal-body modal-css1">
+			                                <div class="row">
+			                                	<div class="col-lg-6 col-sm-6">
+			                                		<img src="dessert/croissant.jpeg" style="width: 180px; height:180px">
+			                                	</div>
+			                                	<div class="col-lg-6 col-sm-6">
+			                                		<dl>
+			                                			<dt class="dessert-dt">Croissant</dt>
+			                                			<dd class="dessert-dd">A buttery, flaky croissant complements the rich and foamy cappuccino.</dd>
+			                                		</dl>
+			                                	</div>
+			                                </div>
+			                                <div class="row mt-3">
+			                                	<div class="col-lg-6 col-sm-6">
+			                                		<img src="dessert/macaron.jpeg" style="width: 180px; height:180px">
+			                                	</div>
+			                                	<div class="col-lg-6 col-sm-6">
+			                                		<dl>
+			                                			<dt class="dessert-dt">Macaron</dt>
+			                                			<dd class="dessert-dd">These delicate, sweet cookies pair beautifully with cappuccino's balanced flavor.</dd>
+			                                		</dl>
+			                                	</div>
+			                                </div>
+			                            </div>
+			                            <div class="modal-footer dessert-quote">
+			                                <p class="dessert-q">"Love at first bite."</p>
+			                            </div>
+			                        </div>
+			                    </div>
+			                </div>
+						</center>
+					<!--  end of modal -->
+					<div class="row">
+						<div class="col-lg-6 col-sm-6 mt-3">
+							<img src="drink/americano.jpg" class="post-card">
+						</div>
+						<div class="col-lg-6 col-sm-6 mt-3">
+							<dl>
+								<dt>Americano</dt>
+								<dd>Espresso diluted with hot water, giving it a similar strength but a milder flavor than black coffee.</dd>
+							</dl>
+							<div class="button">
+								<button type="button" class="btn btn-desert" data-bs-toggle="modal" data-bs-target="#americanoMdl">
+	                            	<img src="icon/dessert1.png" class="icon-dessert">
+	                            </button>
+							</div>
+						</div>
+					</div>
+					<!-- modal for dessert -->
+						<center>
+							<div class="modal fade" id="americanoMdl" tabindex="-1" aria-labelledby="americanoTbl" aria-hidden="true">
+			                    <div class="modal-dialog" role="document">
+			                        <div class="modal-content">
+			                            <div class="modal-header modal-css">
+			                                <h5 class="modal-title mdl-title" id="americanoTbl">Best Dessert for Americano</h5>
+			                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			                            </div>
+			                            <div class="modal-body modal-css1">
+			                                <div class="row">
+			                                	<div class="col-lg-6 col-sm-6">
+			                                		<img src="dessert/applePie.jpeg" style="width: 180px; height:180px">
+			                                	</div>
+			                                	<div class="col-lg-6 col-sm-6">
+			                                		<dl>
+			                                			<dt class="dessert-dt">Apple Pie</dt>
+			                                			<dd class="dessert-dd">The mild flavor of an Americano pairs well with the sweet and tart notes of apple pie.</dd>
+			                                		</dl>
+			                                	</div>
+			                                </div>
+			                                <div class="row mt-3">
+			                                	<div class="col-lg-6 col-sm-6">
+			                                		<img src="dessert/shortBread.jpeg" style="width: 180px; height:180px">
+			                                	</div>
+			                                	<div class="col-lg-6 col-sm-6">
+			                                		<dl>
+			                                			<dt class="dessert-dt">Shortbread Cookies</dt>
+			                                			<dd class="dessert-dd">Their buttery simplicity complements the clean, bold coffee.</dd>
+			                                		</dl>
+			                                	</div>
+			                                </div>
+			                            </div>
+			                            <div class="modal-footer dessert-quote">
+			                                <p class="dessert-q">"Dessert: the ultimate love language."</p>
+			                            </div>
+			                        </div>
+			                    </div>
+			                </div>
+						</center>
+					<!-- end of modal -->
+					<div class="row">
+						<div class="col-lg-6 col-sm-6 mt-3">
+							<img src="drink/flatWhite.jpg" class="post-card">
+						</div>
+						<div class="col-lg-6 col-sm-6 mt-3">
+							<dl>
+								<dt>Flat White</dt>
+								<dd>Originating in Australia/New Zealand, this drink features espresso with a velvety layer of steamed milk, smoother than a latte.</dd>
+							</dl>
+							<div class="button">
+								<button type="button" class="btn btn-desert" data-bs-toggle="modal" data-bs-target="#flatWhiteMdl">
+	                            	<img src="icon/dessert1.png" class="icon-dessert">
+	                            </button>
+							</div>
+						</div>
+					</div>
+					<!-- modal for dessert -->
+						<center>
+							<div class="modal fade" id="flatWhiteMdl" tabindex="-1" aria-labelledby="flatWhiteTbl" aria-hidden="true">
+			                    <div class="modal-dialog" role="document">
+			                        <div class="modal-content">
+			                            <div class="modal-header modal-css">
+			                                <h5 class="modal-title mdl-title" id="flatWhiteTbl">Best Dessert for Flat White</h5>
+			                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			                            </div>
+			                            <div class="modal-body modal-css1">
+			                                <div class="row">
+			                                	<div class="col-lg-6 col-sm-6">
+			                                		<img src="dessert/pecanTart.jpg" style="width: 180px; height:180px">
+			                                	</div>
+			                                	<div class="col-lg-6 col-sm-6">
+			                                		<dl>
+			                                			<dt class="dessert-dt">Pecan Tart</dt>
+			                                			<dd class="dessert-dd">The nutty and caramel flavors harmonize with the smooth flat white.</dd>
+			                                		</dl>
+			                                	</div>
+			                                </div>
+			                                <div class="row mt-3">
+			                                	<div class="col-lg-6 col-sm-6">
+			                                		<img src="dessert/bananaBread.jpeg" style="width: 180px; height:180px">
+			                                	</div>
+			                                	<div class="col-lg-6 col-sm-6">
+			                                		<dl>
+			                                			<dt class="dessert-dt">Banana Bread</dt>
+			                                			<dd class="dessert-dd">Moist and slightly sweet, this pairs wonderfully with the creamy coffee.</dd>
+			                                		</dl>
+			                                	</div>
+			                                </div>
+			                            </div>
+			                            <div class="modal-footer dessert-quote">
+			                                <p class="dessert-q">"Indulge in sweet life."</p>
+			                            </div>
+			                        </div>
+			                    </div>
+			                </div>
+						</center>
+					<!-- end of modal -->
+				</div>
+				<div class="col-lg-3 col-sm-3"></div>
+			</div>
+			<!-- Sweet and Indulgent Favorites -->
+			<div class="row mt-3">
+				<div class="col-lg-3 col-sm-3"></div>
+				<div class="col-lg-6 col-sm-6 mt-5">
+					<p class="section-b">Sweet and Indulgent Favorites</p>
+					<div class="row">
+						<div class="col-lg-6 col-sm-6 mt-3">
+							<img src="drink/mocha.jpg" class="post-card">
+						</div>
+						<div class="col-lg-6 col-sm-6 mt-3">
+							<dl>
+								<dt>Mocha</dt>
+								<dd>A combination of espresso, steamed milk, and chocolate syrup, topped with whipped cream — a dessert-like coffee treat.</dd>
+							</dl>
+							<div class="button">
+								<button type="button" class="btn btn-desert" data-bs-toggle="modal" data-bs-target="#mochaMdl">
+	                            	<img src="icon/dessert1.png" class="icon-dessert">
+	                            </button>
+							</div>
+						</div>
+					</div>
+					<!-- modal for dessert -->
+						<center>
+							<div class="modal fade" id="mochaMdl" tabindex="-1" aria-labelledby="mochaTbl" aria-hidden="true">
+			                    <div class="modal-dialog" role="document">
+			                        <div class="modal-content">
+			                            <div class="modal-header modal-css">
+			                                <h5 class="modal-title mld-title" id="mochaTbl">Best Dessert for Mocha</h5>
+			                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			                            </div>
+			                            <div class="modal-body modal-css1">
+			                                <div class="row">
+			                                	<div class="col-lg-6 col-sm-6">
+			                                		<img src="dessert/brownies.jpeg" style="width: 180px; height:180px">
+			                                	</div>
+			                                	<div class="col-lg-6 col-sm-6">
+			                                		<dl>
+			                                			<dt class="dessert-dt">Brownies</dt>
+			                                			<dd class="dessert-dd">The rich chocolate flavor enhances the mocha’s sweetness.</dd>
+			                                		</dl>
+			                                	</div>
+			                                </div>
+			                                <div class="row mt-3">
+			                                	<div class="col-lg-6 col-sm-6">
+			                                		<img src="dessert/lavaCake.jpg" style="width: 180px; height:180px">
+			                                	</div>
+			                                	<div class="col-lg-6 col-sm-6">
+			                                		<dl>
+			                                			<dt class="dessert-dt">Chocolate Lava Cake</dt>
+			                                			<dd class="dessert-dd">Decadent chocolate on chocolate makes for an indulgent pairing.</dd>
+			                                		</dl>
+			                                	</div>
+			                                </div>
+			                            </div>
+			                            <div class="modal-footer dessert-quote">
+			                                <p class="dessert-q">Sugar, spice, and everything nice."</p>
+			                            </div>
+			                        </div>
+			                    </div>
+			                </div>
+						</center>
+					<!-- end of modal -->
+					<div class="row">
+						<div class="col-lg-6 col-sm-6 mt-3">
+							<img src="drink/caramelMacchiato.jpeg" class="post-card">
+						</div>
+						<div class="col-lg-6 col-sm-6 mt-3">
+							<dl>
+								<dt>Caramel Macchiato</dt>
+								<dd>Espresso combined with steamed milk and a drizzle of caramel, loved for its sweet and aromatic profile.</dd>
+							</dl>
+							<div class="button">
+								<button type="button" class="btn btn-desert" data-bs-toggle="modal" data-bs-target="#caraMacchiatoMdl">
+	                            	<img src="icon/dessert1.png" class="icon-dessert">
+	                            </button>
+							</div>
+						</div>
+					</div>
+					<!-- modal for dessert -->
+						<center>
+							<div class="modal fade" id="caraMacchiatoMdl" tabindex="-1" aria-labelledby="caraMacchiatoTbl" aria-hidden="true">
+			                    <div class="modal-dialog" role="document">
+			                        <div class="modal-content">
+			                            <div class="modal-header modal-css">
+			                                <h5 class="modal-title mdl-title" id="caraMacchiatoTbl">Best Dessert for Caramel Macchiato</h5>
+			                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			                            </div>
+			                            <div class="modal-body modal-css1">
+			                                <div class="row">
+			                                	<div class="col-lg-6 col-sm-6">
+			                                		<img src="dessert/caramelFlan.jpg" style="width: 180px; height:180px">
+			                                	</div>
+			                                	<div class="col-lg-6 col-sm-6">
+			                                		<dl>
+			                                			<dt class="dessert-dt">Caramel Flan</dt>
+			                                			<dd class="dessert-dd">The shared caramel flavors make this a seamless pairing.</dd>
+			                                		</dl>
+			                                	</div>
+			                                </div>
+			                                <div class="row mt-3">
+			                                	<div class="col-lg-6 col-sm-6">
+			                                		<img src="dessert/churros.jpg" style="width: 180px; height:180px">
+			                                	</div>
+			                                	<div class="col-lg-6 col-sm-6">
+			                                		<dl>
+			                                			<dt class="dessert-dt">Churros with Caramel Sauce</dt>
+			                                			<dd class="dessert-dd">A sweet and crispy treat to echo the caramel notes.</dd>
+			                                		</dl>
+			                                	</div>
+			                                </div>
+			                            </div>
+			                            <div class="modal-footer dessert-quote">
+			                                <p class="dessert-q">"Savor the sweetness of life."</p>
+			                            </div>
+			                        </div>
+			                    </div>
+			                </div>
+						</center>
+					<!-- end of modal -->
+				</div>
+				<div class="col-lg-3 col-sm-3"></div>
+			</div>
+			<!-- Cold Coffee Options -->
+			<div class="row mt-3">
+				<div class="col-lg-3 col-sm-3"></div>
+				<div class="col-lg-6 col-sm-6 mt-5">
+					<p class="section-c">Cold Coffee Options</p>
+					<div class="row">
+						<div class="col-lg-6 col-sm-6 mt-3">
+							<img src="drink/icedCoffee.jpeg" class="post-card">
+						</div>
+						<div class="col-lg-6 col-sm-6 mt-3">
+							<dl>
+								<dt>Iced Coffee</dt>
+								<dd>Freshly brewed coffee served over ice. Often sweetened and/or mixed with milk or cream.</dd>
+							</dl>
+							<div class="button">
+								<button type="button" class="btn btn-desert" data-bs-toggle="modal" data-bs-target="#icedCoffeeMdl">
+	                            	<img src="icon/dessert1.png" class="icon-dessert">
+	                            </button>
+							</div>
+						</div>
+					</div>
+					<!-- modal for dessert -->
+						<center>
+							<div class="modal fade" id="icedCoffeeMdl" tabindex="-1" aria-labelledby="icedCoffeeModal" aria-hidden="true">
+			                    <div class="modal-dialog" role="document">
+			                        <div class="modal-content">
+			                            <div class="modal-header modal-css">
+			                                <h5 class="modal-title mdl-title" id="icedCoffeeModal">Best Dessert for Iced Coffee</h5>
+			                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			                            </div>
+			                            <div class="modal-body modal-css1">
+			                                <div class="row">
+			                                	<div class="col-lg-6 col-sm-6">
+			                                		<img src="dessert/lemonBars.jpg" style="width: 180px; height:180px">
+			                                	</div>
+			                                	<div class="col-lg-6 col-sm-6">
+			                                		<dl>
+			                                			<dt class="dessert-dt">Lemon Bars</dt>
+			                                			<dd class="dessert-dd">The citrusy sweetness provides a refreshing contrast to iced coffee.</dd>
+			                                		</dl>
+			                                	</div>
+			                                </div>
+			                                <div class="row mt-3">
+			                                	<div class="col-lg-6 col-sm-6">
+			                                		<img src="dessert/butterCookies.jpg" style="width: 180px; height:180px">
+			                                	</div>
+			                                	<div class="col-lg-6 col-sm-6">
+			                                		<dl>
+			                                			<dt class="dessert-dt">Butter Cookies</dt>
+			                                			<dd class="dessert-dd">Simple yet satisfying, they pair well with the chilled drink.</dd>
+			                                		</dl>
+			                                	</div>
+			                                </div>
+			                            </div>
+			                            <div class="modal-footer dessert-quote">
+			                                <p class="dessert-q">"Life is short, eat the dessert."</p>
+			                            </div>
+			                        </div>
+			                    </div>
+			                </div>
+						</center>
+					<!-- end of modal -->
+					<div class="row">
+						<div class="col-lg-6 col-sm-6 mt-3">
+							<img src="drink/coldBrew.jpeg" class="post-card">
+						</div>
+						<div class="col-lg-6 col-sm-6 mt-3">
+							<dl>
+								<dt>Cold Brew</dt>
+								<dd>Coffee brewed slowly in cold water for 12-24 hours, resulting in a smoother, less acidic flavor profile.</dd>
+							</dl>
+							<div class="button">
+								<button type="button" class="btn btn-desert" data-bs-toggle="modal" data-bs-target="#coldBrewMdl">
+	                            	<img src="icon/dessert1.png" class="icon-dessert">
+	                            </button>
+							</div>
+						</div>
+					</div>
+					<!-- modal for dessert -->
+						<center>
+							<div class="modal fade" id="coldBrewMdl" tabindex="-1" aria-labelledby="coldBrewTbl" aria-hidden="true">
+			                    <div class="modal-dialog" role="document">
+			                        <div class="modal-content">
+			                            <div class="modal-header modal-css">
+			                                <h5 class="modal-title mdl-title" id="coldBrewTbl">Best Dessert for Cold Brew</h5>
+			                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			                            </div>
+			                            <div class="modal-body modal-css1">
+			                                <div class="row">
+			                                	<div class="col-lg-6 col-sm-6">
+			                                		<img src="dessert/chocolateChips.jpeg" style="width: 180px; height:180px">
+			                                	</div>
+			                                	<div class="col-lg-6 col-sm-6">
+			                                		<dl>
+			                                			<dt class="dessert-dt">Chocolate Chip Cookies</dt>
+			                                			<dd class="dessert-dd">Their sweetness balances the smooth, strong flavor of cold brew.</dd>
+			                                		</dl>
+			                                	</div>
+			                                </div>
+			                                <div class="row mt-3">
+			                                	<div class="col-lg-6 col-sm-6">
+			                                		<img src="dessert/almondBiscotti.jpeg" style="width: 180px; height:180px">
+			                                	</div>
+			                                	<div class="col-lg-6 col-sm-6">
+			                                		<dl>
+			                                			<dt class="dessert-dt">Almond Biscotti</dt>
+			                                			<dd class="dessert-dd">A crunchy, nutty option that’s perfect for dipping.</dd>
+			                                		</dl>
+			                                	</div>
+			                                </div>
+			                            </div>
+			                            <div class="modal-footer dessert-quote">
+			                                <p class="dessert-q">"A sweet tooth is a culinary necessity."</p>
+			                            </div>
+			                        </div>
+			                    </div>
+			                </div>
+						</center>
+					<!-- end of modal -->
+					<div class="row">
+						<div class="col-lg-6 col-sm-6 mt-3">
+							<img src="drink/frappuccino.jpeg" class="post-card">
+						</div>
+						<div class="col-lg-6 col-sm-6 mt-3">
+							<dl>
+								<dt>Frappuccino (Blended Coffee)</dt>
+								<dd>A cold, blended coffee drink often topped with whipped cream and customizable with flavors like caramel, mocha, or seasonal specialties.</dd>
+							</dl>
+							<div class="button">
+								<button type="button" class="btn btn-desert" data-bs-toggle="modal" data-bs-target="#frappuccinoMdl">
+	                            	<img src="icon/dessert1.png" class="icon-dessert">
+	                            </button>
+							</div>
+						</div>
+					</div>
+					<!-- modal for dessert -->
+						<center>
+							<div class="modal fade" id="frappuccinoMdl" tabindex="-1" aria-labelledby="frappuccinoTbl" aria-hidden="true">
+			                    <div class="modal-dialog" role="document">
+			                        <div class="modal-content">
+			                            <div class="modal-header modal-css">
+			                                <h5 class="modal-title mdl-title" id="frappuccinoTbl">Best Dessert for Frappuccino</h5>
+			                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			                            </div>
+			                            <div class="modal-body modal-css1">
+			                                <div class="row">
+			                                	<div class="col-lg-6 col-sm-6">
+			                                		<img src="dessert/iceCreamSundae.jpeg" style="width: 180px; height:180px">
+			                                	</div>
+			                                	<div class="col-lg-6 col-sm-6">
+			                                		<dl>
+			                                			<dt class="dessert-dt">Ice Cream Sundae</dt>
+			                                			<dd class="dessert-dd">A fun and indulgent dessert to match the Frappuccino’s sweetness.</dd>
+			                                		</dl>
+			                                	</div>
+			                                </div>
+			                                <div class="row mt-3">
+			                                	<div class="col-lg-6 col-sm-6">
+			                                		<img src="dessert/donut.jpeg" style="width: 180px; height:180px">
+			                                	</div>
+			                                	<div class="col-lg-6 col-sm-6">
+			                                		<dl>
+			                                			<dt class="dessert-dt">Donuts</dt>
+			                                			<dd class="dessert-dd">Glazed or filled, donuts are a versatile pairing for sweet blended drinks.</dd>
+			                                		</dl>
+			                                	</div>
+			                                </div>
+			                            </div>
+			                            <div class="modal-footer dessert-quote">
+			                                <p class="dessert-q">"Taste the magic, savor the moment."</p>
+			                            </div>
+			                        </div>
+			                    </div>
+			                </div>
+						</center>
+					<!-- end of modal -->
+				</div>
+				<div class="col-lg-3 col-sm-3"></div>
+			</div>
+			<!-- Tea Choices -->
+			<div class="row mt-3">
+				<div class="col-lg-3 col-sm-3"></div>
+				<div class="col-lg-6 col-sm-6">
+					<p class="section-d">Tea Choices</p>
+					<div class="row">
+						<div class="col-lg-6 col-sm-6 mt-3">
+							<img src="drink/earlGray.jpeg" class="post-card">
+						</div>
+						<div class="col-lg-6 col-sm-6 mt-3">
+							<dl>
+								<dt>Earl Gray Tea</dt>
+								<dd>A classic black tea flavored with bergamot oil, offering a citrusy and aromatic taste.</dd>
+							</dl>
+							<div class="button">
+								<button type="button" class="btn btn-desert" data-bs-toggle="modal" data-bs-target="#earlGrayMdl">
+	                            	<img src="icon/dessert1.png" class="icon-dessert">
+	                            </button>
+							</div>
+						</div>
+					</div>
+					<!-- modal for dessert -->
+						<center>
+							<div class="modal fade" id="earlGrayMdl" tabindex="-1" aria-labelledby="earlGrayTbl" aria-hidden="true">
+			                    <div class="modal-dialog" role="document">
+			                        <div class="modal-content">
+			                            <div class="modal-header modal-css">
+			                                <h5 class="modal-title mdl-title" id="earlGrayTbl">Best Dessert for Earl Gray Tea</h5>
+			                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			                            </div>
+			                            <div class="modal-body modal-css1">
+			                                <div class="row">
+			                                	<div class="col-lg-6 col-sm-6">
+			                                		<img src="dessert/lemonTart.jpeg" style="width: 180px; height:180px">
+			                                	</div>
+			                                	<div class="col-lg-6 col-sm-6">
+			                                		<dl>
+			                                			<dt class="dessert-dt">Lemon Tart</dt>
+			                                			<dd class="dessert-dd">The citrusy notes in Earl Grey complement the tartness of lemon.</dd>
+			                                		</dl>
+			                                	</div>
+			                                </div>
+			                                <div class="row mt-3">
+			                                	<div class="col-lg-6 col-sm-6">
+			                                		<img src="dessert/earlMacaron.jpeg" style="width: 180px; height:180px">
+			                                	</div>
+			                                	<div class="col-lg-6 col-sm-6">
+			                                		<dl>
+			                                			<dt class="dessert-dt">Earl Gray Macaron</dt>
+			                                			<dd class="dessert-dd">A sophisticated and elegant pairing, with the tea flavor infused into the macaron shells.</dd>
+			                                		</dl>
+			                                	</div>
+			                                </div>
+			                            </div>
+			                            <div class="modal-footer dessert-quote">
+			                                <p class="dessert-q">"Dessert: the way to my heart."</p>
+			                            </div>
+			                        </div>
+			                    </div>
+			                </div>
+						</center>
+					<!-- end of modal -->
+					<div class="row">
+						<div class="col-lg-6 col-sm-6 mt-3">
+							<img src="drink/englishBreak.jpeg" class="post-card">
+						</div>
+						<div class="col-lg-6 col-sm-6 mt-3">
+							<dl>
+								<dt>English Breakfast</dt>
+								<dd>A robust black tea with a malty flavor, perfect for a strong and satisfying brew.</dd>
+							</dl>
+							<div class="button">
+								<button type="button" class="btn btn-desert" data-bs-toggle="modal" data-bs-target="#englishBreakMdl">
+	                            	<img src="icon/dessert1.png" class="icon-dessert">
+	                            </button>
+							</div>
+						</div>
+					</div>
+					<!-- modal for dessert -->
+						<center>
+							<div class="modal fade" id="englishBreakMdl" tabindex="-1" aria-labelledby="englishBreakTbl" aria-hidden="true">
+			                    <div class="modal-dialog" role="document">
+			                        <div class="modal-content">
+			                            <div class="modal-header modal-css">
+			                                <h5 class="modal-title mdl-title" id="englishBreakTbl">Best Dessert for English Breakfast</h5>
+			                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			                            </div>
+			                            <div class="modal-body modal-css1">
+			                                <div class="row">
+			                                	<div class="col-lg-6 col-sm-6">
+			                                		<img src="dessert/chocoChips.jpeg" style="width: 180px; height:180px">
+			                                	</div>
+			                                	<div class="col-lg-6 col-sm-6">
+			                                		<dl>
+			                                			<dt class="dessert-dt">Chocolate Chip Cookies</dt>
+			                                			<dd class="dessert-dd">The rich, malty flavor of English Breakfast pairs well with the sweetness of chocolate chip cookies.</dd>
+			                                		</dl>
+			                                	</div>
+			                                </div>
+			                                <div class="row mt-3">
+			                                	<div class="col-lg-6 col-sm-6">
+			                                		<img src="dessert/darkTuffles.jpeg" style="width: 180px; height:180px">
+			                                	</div>
+			                                	<div class="col-lg-6 col-sm-6">
+			                                		<dl>
+			                                			<dt class="dessert-dt">Dark Chocolate Tuffles</dt>
+			                                			<dd class="dessert-dd">The bold flavors of both the tea and the truffles create a decadent combination.</dd>
+			                                		</dl>
+			                                	</div>
+			                                </div>
+			                            </div>
+			                            <div class="modal-footer dessert-quote">
+			                                <p class="dessert-q">"Every bite is a chance to delight."</p>
+			                            </div>
+			                        </div>
+			                    </div>
+			                </div>
+						</center>
+					<!-- end of modal -->
+					<div class="row">
+						<div class="col-lg-6 col-sm-6 mt-3">
+							<img src="drink/greenTea.jpeg" class="post-card">
+						</div>
+						<div class="col-lg-6 col-sm-6 mt-3">
+							<dl>
+								<dt>Green Tea</dt>
+								<dd>A light and refreshing tea with a grassy, vegetal taste, known for its potential health benefits.</dd>
+							</dl>
+							<div class="button">
+								<button type="button" class="btn btn-desert" data-bs-toggle="modal" data-bs-target="#greenTeaMdl">
+	                            	<img src="icon/dessert1.png" class="icon-dessert">
+	                            </button>
+							</div>
+						</div>
+					</div>
+					<!-- modal for dessert -->
+						<center>
+							<div class="modal fade" id="greenTeaMdl" tabindex="-1" aria-labelledby="greenTeaTbl" aria-hidden="true">
+			                    <div class="modal-dialog" role="document">
+			                        <div class="modal-content">
+			                            <div class="modal-header modal-css">
+			                                <h5 class="modal-title mdl-title" id="greenTeaTbl">Best Dessert for Green Tea</h5>
+			                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			                            </div>
+			                            <div class="modal-body modal-css1">
+			                                <div class="row">
+			                                	<div class="col-lg-6 col-sm-6">
+			                                		<img src="dessert/machaCake.jpeg" style="width: 180px; height:180px">
+			                                	</div>
+			                                	<div class="col-lg-6 col-sm-6">
+			                                		<dl>
+			                                			<dt class="dessert-dt">Matcha Cheesecake</dt>
+			                                			<dd class="dessert-dd"> A light and refreshing dessert that highlights the grassy notes of green tea.</dd>
+			                                		</dl>
+			                                	</div>
+			                                </div>
+			                                <div class="row mt-3">
+			                                	<div class="col-lg-6 col-sm-6">
+			                                		<img src="dessert/greenTeaIC.jpeg" style="width: 180px; height:180px">
+			                                	</div>
+			                                	<div class="col-lg-6 col-sm-6">
+			                                		<dl>
+			                                			<dt class="dessert-dt">Greentea Ice Cream</dt>
+			                                			<dd class="dessert-dd">A cool and creamy treat that perfectly complements the delicate flavor of green tea.</dd>
+			                                		</dl>
+			                                	</div>
+			                                </div>
+			                            </div>
+			                            <div class="modal-footer dessert-quote">
+			                                <p class="dessert-q">"Warining: dessert may cause extreme happiness."</p>
+			                            </div>
+			                        </div>
+			                    </div>
+			                </div>
+						</center>
+					<!-- end of modal -->
+					<div class="row">
+						<div class="col-lg-6 col-sm-6 mt-3">
+							<img src="drink/chaiLatte.jpeg" class="post-card">
+						</div>
+						<div class="col-lg-6 col-sm-6 mt-3">
+							<dl>
+								<dt>Chai Latte</dt>
+								<dd>A spiced black tea blend with milk and sweetener, offering a warm and comforting beverage.</dd>
+							</dl>
+							<div class="button">
+								<button type="button" class="btn btn-desert" data-bs-toggle="modal" data-bs-target="#chaiLatteMdl">
+	                            	<img src="icon/dessert1.png" class="icon-dessert">
+	                            </button>
+							</div>
+						</div>
+					</div>
+					<!-- modal for dessert -->
+						<center>
+							<div class="modal fade" id="chaiLatteMdl" tabindex="-1" aria-labelledby="chaiLatterTbl" aria-hidden="true">
+			                    <div class="modal-dialog" role="document">
+			                        <div class="modal-content">
+			                            <div class="modal-header modal-css">
+			                                <h5 class="modal-title mdl-title" id="chaiLatterTbl">Best Dessert for Chai Latte</h5>
+			                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			                            </div>
+			                            <div class="modal-body modal-css1">
+			                                <div class="row">
+			                                	<div class="col-lg-6 col-sm-6">
+			                                		<img src="dessert/spicyGinger.jpeg" style="width: 180px; height:180px">
+			                                	</div>
+			                                	<div class="col-lg-6 col-sm-6">
+			                                		<dl>
+			                                			<dt class="dessert-dt">Spicy Ginger Cookies</dt>
+			                                			<dd class="dessert-dd">The warm spices in chai latte pair well with the ginger in these cookies.</dd>
+			                                		</dl>
+			                                	</div>
+			                                </div>
+			                                <div class="row mt-3">
+			                                	<div class="col-lg-6 col-sm-6">
+			                                		<img src="dessert/apple.jpeg" style="width: 180px; height:180px">
+			                                	</div>
+			                                	<div class="col-lg-6 col-sm-6">
+			                                		<dl>
+			                                			<dt class="dessert-dt">Apple Pie</dt>
+			                                			<dd class="dessert-dd">The sweet and tart flavors of apple pie complement the bold spices in chai latte.</dd>
+			                                		</dl>
+			                                	</div>
+			                                </div>
+			                            </div>
+			                            <div class="modal-footer dessert-quote">
+			                                <p class="dessert-q">"The art of culinary indulgence."</p>
+			                            </div>
+			                        </div>
+			                    </div>
+			                </div>
+						</center>
+					<!-- end of modal -->
+					<div class="row">
+						<div class="col-lg-6 col-sm-6 mt-3">
+							<img src="drink/herbalTea.jpeg" class="post-card">
+						</div>
+						<div class="col-lg-6 col-sm-6 mt-3">
+							<dl>
+								<dt>Herbal Tea (Chamomile or Peppermint)</dt>
+								<dd>A caffeine-free option, such as chamomile or peppermint, providing a soothing and relaxing experience.</dd>
+							</dl>
+							<div class="button">
+								<button type="button" class="btn btn-desert" data-bs-toggle="modal" data-bs-target="#herbalTeaMdl">
+	                            	<img src="icon/dessert1.png" class="icon-dessert">
+	                            </button>
+							</div>
+						</div>
+					</div>
+					<!-- modal for dessert -->
+						<center>
+							<div class="modal fade" id="herbalTeaMdl" tabindex="-1" aria-labelledby="herbalTeaTbl" aria-hidden="true">
+			                    <div class="modal-dialog" role="document">
+			                        <div class="modal-content">
+			                            <div class="modal-header modal-css">
+			                                <h5 class="modal-title mdl-title" id="herbalTeaTbl">Best Dessert for Herbal Tea</h5>
+			                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			                            </div>
+			                            <div class="modal-body modal-css1">
+			                                <div class="row">
+			                                	<div class="col-lg-6 col-sm-6">
+			                                		<img src="dessert/honeyCake.jpeg" style="width: 180px; height:180px">
+			                                	</div>
+			                                	<div class="col-lg-6 col-sm-6">
+			                                		<dl>
+			                                			<dt class="dessert-dt">Honey Cake</dt>
+			                                			<dd class="dessert-dd">TThe floral notes of chamomile pair well with the sweetness of honey cake.</dd>
+			                                		</dl>
+			                                	</div>
+			                                </div>
+			                                <div class="row mt-3">
+			                                	<div class="col-lg-6 col-sm-6">
+			                                		<img src="dessert/mintIceCream.jpeg" style="width: 180px; height:180px">
+			                                	</div>
+			                                	<div class="col-lg-6 col-sm-6">
+			                                		<dl>
+			                                			<dt class="dessert-dt">Mint Chocolate Chip Ice Scream</dt>
+			                                			<dd class="dessert-dd">The refreshing mint flavor in the ice cream complements the calming properties of peppermint tea.</dd>
+			                                		</dl>
+			                                	</div>
+			                                </div>
+			                            </div>
+			                            <div class="modal-footer dessert-quote">
+			                                <p class="dessert-q">"Dessert: the grand finale."</p>
+			                            </div>
+			                        </div>
+			                    </div>
+			                </div>
+						</center>
+					<!-- end of modal -->
+				</div>
+				<div class="col-lg-3 col-sm-3"></div>
+			</div>
+		</div>
+	<div class="footer">
+		<div class="foot-note">
+			<img src="image/logo1.jpg" style="width: 50px; height: 50px; border-radius: 50px 50px 50px 50px;">
+			BlissCafè 2024
+			<div class="note">"Your haven for coffee and trangquility."</div>
+			<img src="icon/facebook.png" style="width: 30px; height: 30px; margin-left: 5px;">
+			<img src="icon/twitter.png" style="width: 30px; height: 30px; margin-left: 5px;">
+			<img src="icon/instagram.png" style="width: 30px; height: 30px; margin-left: 5px;">
+		</div>
+	</div>
+
+	<script src="css/bootstrap.js"></script>
+	<script src="css/bootstrap.bundle.js"></script>
+</body>
+</html>
